@@ -1,0 +1,28 @@
+Text Dataset
+
+                                            Document
+0  Artificial Intelligence is transforming healthcare.
+1  Artificial Intelligence improves healthcare systems.
+2  Machine Learning is a branch of Artificial Intelligence.
+3  Football is a popular outdoor sport.
+4  Healthcare uses AI for disease prediction.
+
+Cosine Similarity Matrix
+
+       Doc1   Doc2   Doc3   Doc4   Doc5
+Doc1  1.00   0.67   0.47   0.18   0.20
+Doc2  0.67   1.00   0.29   0.00   0.22
+Doc3  0.47   0.29   1.00   0.15   0.00
+Doc4  0.18   0.00   0.15   1.00   0.00
+Doc5  0.20   0.22   0.00   0.00   1.00
+
+Similarity between Document 1 and Document 2:
+0.67
+
+Similarity of Document 1 with all Documents
+
+Document 1 and Document 1: 1.00
+Document 1 and Document 2: 0.67
+Document 1 and Document 3: 0.47
+Document 1 and Document 4: 0.18
+Document 1 and Document 5: 0.20
